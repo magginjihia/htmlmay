@@ -1,0 +1,49 @@
+.fruits{
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: #ba0485;
+}
+.cars{
+    border: 2px solid blue;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: blueviolet;
+}
+.Fruits{
+    border: 2px solid green;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: forestgreen;
+}
+#school{
+    border: 2px solid slateblue;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: #002495;
+}
+.myform{
+    text-align: left;
+    padding: 50px;
+    background-color: lightblue;
+    font-family: "Garamond", sans-serif;
+    font-size: 18px;
+
+}
+input[type=text], input[type=password],input[type=email], textarea {
+    width: 600px;
+    padding: 15px;
+    margin: 15px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+}
+input[type=submit]{
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}

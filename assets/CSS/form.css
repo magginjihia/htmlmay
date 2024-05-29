@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Garamond", sans-serif;
+}
+body {
+    background: url("form-bg.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.myform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px; /* Adjusted for more space */
+    background: rgba(0, 0, 0, 0.7); /* Optional: to make the form background visible */
+    padding: 20px;
+    border-radius: 10px;
+}
+.myform h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.myform label {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.myform input, .myform select {
+    font-size: 14px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+.myform input[type=submit] {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: white;
+    width: auto; /* Adjust width for submit button */
+    margin-top: 20px; /* Margin to separate from the rest of the form */
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px; /* Add margin between groups */
+}
+.form-group:last-child {
+    margin-right: 0; /* Remove margin from the last group */
+}

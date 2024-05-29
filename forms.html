@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/CSS/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Registration Form</title>
+</head>
+<body>
+<div class="myform">
+<h2>Registration Form</h2>
+<form action="">
+    <label for="fname" >First Name :</label>
+    <input type="text" id="fname" required placeholder="Enter first name">
+    <label for="lname">Last Name :</label>
+    <input type="text" id="lname" required placeholder="Enter last name">
+    <br><br>
+    <label for="barua">Email Address :</label>
+    <input type="email" id="barua" required placeholder="Enter email address">
+    <label for="pno">Phone Number:</label>
+    <input type="text" id="pno" required placeholder="Enter phone number">
+    <br><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender">
+    <br><br>
+    <label for="course">Course Taken</label>
+    <select name="course" id="course">
+        <option value="js">Javascript</option>
+        <option value="django">Django</option>
+        <option value="react">Reactjs</option>
+        <option value="PHP">PHP</option>
+        <option value="angular">Angularjs</option>
+        <option value="kotlin">Kotlin</option>
+        </select>
+      <br><br>
+    <label for="pic">Upload Pic</label>
+    <input type="file" id="pic">
+     <br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" required placeholder="Enter Date of Birth">
+      <br><br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass">
+    <br><br>
+    <input type="submit" value="Register">
+</form>
+</div>
+</body>
+</html>
